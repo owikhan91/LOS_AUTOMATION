@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/saad.mansoor/IdeaProjects/SeleniumTestNG">
+        <classes>
+            <class name="com.example.LoginTest">
+                <methods>
+                    <include name="testLogin"/>
+                </methods>
+                <methods>
+                    <include name="NewApplication_BasicInfo"/>
+                </methods>
+                <methods>
+                    <include name="NewApplication_BasicCalculator"/>
+                </methods>
+                <methods>
+                    <include name="NewApplication_EmploymentDetails"/>
+                </methods>
+<!--                <methods>-->
+<!--                    <include name="NewApplication_DepositSlip"/>-->
+<!--                </methods>-->
+<!--                <methods>-->
+<!--                    <include name="NewApplication_References"/>-->
+<!--                </methods>-->
+<!--                <methods>-->
+<!--                    <include name="NewApplication_WaiverCriteria"/>-->
+<!--                </methods>-->
+<!--                <methods>-->
+<!--                    <include name="NewApplication_ReferralTagging"/>-->
+<!--                </methods>-->
+<!--                <methods>-->
+<!--                    <include name="NewApplication_Residence"/>-->
+<!--                </methods>-->
+                <methods>
+                    <include name="NewApplication_Decision"/>
+                </methods>
+<!--                <methods>-->
+<!--                    <include name="testLogout"/>-->
+<!--                </methods>-->
+
+            </class>
+        </classes>
+    </test>
+</suite>
